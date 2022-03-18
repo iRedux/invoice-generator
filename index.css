@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+.container {
+    max-width: 550px;
+    margin: 100px auto;
+}
+
+.heading {
+    background-color: #3A69D2;
+    padding: 60px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.heading h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.invoice {
+    background-color: #1F2937;
+    padding: 30px 0;
+}
+
+.invoice .invoice__buttons ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.invoice .invoice__buttons ul li {
+    list-style: none;
+    background-color: #D1D4F4;
+    color: #4A4E74;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.invoice .invoice__buttons ul li:last-child {
+    margin-right: 0;
+}
+
+.invoice__content, .invoice__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.invoice__content .invoice__heading,
+.invoice__footer .invoice__heading {
+    color: #D5D4D8;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.invoice__content ul,
+.invoice__footer ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.invoice__content ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    /* text-align: right; */
+}
+
+.invoice__content ul li .remove {
+    font-size: 8px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #D5D4D8;
+}
+
+.invoice__hr {
+    max-width: 90%;
+    margin: 0 auto;
+    border: 0.1px solid #c3c6db8c;
+}
+
+.price {
+    /* font-size: 24px; */
+    color: #fff;
+}
+
+.dollar {
+    color: #918E9B;
+}
+
+.invoice__footer ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#total-price {
+    font-size: 36px;
+    text-align: right;
+    font-weight: 800;
+}
